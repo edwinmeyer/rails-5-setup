@@ -174,7 +174,7 @@ You are now ready to set up your Rails project, either creating a new project us
 Rails sets up a new project to use MySql by default, so add the option "-d postgresql" to the 'rails new' command.
 
 - Existing project: 
-1) In Gemfile: replace the gem specifying the current database (e.g. **`gem 'sqlite3'`**) with gem **`'pg'**
+1) In Gemfile: replace the gem specifying the current database (e.g. **`gem 'sqlite3'`**) with gem **'pg'**
 2) In database.yml: Change the db specifiers to use Postgres
 3) Run 'bundle install', and recreate the DB using the 'rails db' commands. (Use 'rake db' instead if running or Rails 4 or earlier.)   
 (https://coderwall.com/p/cpmdvg/rails-3-development-switch-from-sqlite3-to-pg-postgresql has more details.)
